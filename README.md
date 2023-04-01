@@ -221,6 +221,7 @@ _Each of the following case study questions can be answered using a single SQL s
 The following questions are related creating basic data tables that Danny and his team can use to quickly derive insights without needing to join the underlying tables using SQL.
 
    ![](B1.JPG)
+   
                   SELECT s.customer_id, order_date, product_name, price,
                   case when order_date >= join_date then  'Y'
                   else 'N' end as Member
@@ -236,6 +237,7 @@ The following questions are related creating basic data tables that Danny and hi
 Danny also requires further information about the ranking of customer products, but he purposely does not need the ranking for non-member purchases so he expects null ranking values for the records when customers are not yet part of the loyalty program. 
 
    ![](B2.JPG)
+   
                   WITH membership_table_ranking as
                   (
                   SELECT s.customer_id, order_date, product_name, price,
