@@ -46,19 +46,66 @@ _Each of the following case study questions can be answered using a single SQL s
 
   ![](Q1.JPG)
   
+                      SELECT customer_id, sum(price) as Amount_spent
+                        FROM sales s
+
+                           Full join menu m
+                           on s.product_id = m.product_id
+
+                           Group by customer_id
+
 - How many days has each customer visited the restaurant?
 
   ![](Q2.JPG)
   
+                  SELECT customer_id, COUNT(order_date) as Noofdaysvisited
+                     FROM sales
+
+                     GROUP BY customer_id
+                     
 - What was the first item from the menu purchased by each customer?
   
   ![](Q3.JPG)
+  
+                  WITH ranked AS (SELECT customer_id, product_name, order_date,
+                     RANK () OVER (PARTITION BY customer_id order by order_date) as purchased_order
+                     FROM sales s 
+
+                     join menu m
+                     on s.product_id = m.product_id
+                     )
+
+                     SELECT * from ranked 
+                     where purchased_order = 1
   
 - What is the most purchased item on the menu and how many times was it purchased by all customers?
   | most purchased item  | Number of times purchases by all customers |
   |:--------------------:|:--------------------:|
   | ![](Q4.JPG)          | ![](Q4.1.JPG) |
-    
+  
+                       SELECT  s.product_id, product_name, count(product_name) as most_purchased_item
+                     FROM sales s
+
+                     Inner Join menu m
+                     on s.product_id = m. product_id
+
+                     group by product_name, 
+                           s.product_id
+
+                     order by most_purchased_item DESC
+
+                     -- and how many times was it purchased by all customers?
+                     SELECT  customer_id, product_name, count(product_name) as number_of_times_purchased
+                     FROM sales s
+                     Inner Join menu m
+                     on s.product_id = m. product_id
+
+                     where product_name like '%ramen'
+                     group by product_name, 
+                           s.customer_id
+
+                     order by number_of_times_purchased DESC
+  
 - Which item was the most popular for each customer?
 
    ![](Q5.JPG)   
