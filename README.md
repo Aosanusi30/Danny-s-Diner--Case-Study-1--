@@ -41,6 +41,8 @@ _Each of the following case study questions can be answered using a single SQL s
 # Bonus Questions
 - _Join All The Things_
 The following questions are related creating basic data tables that Danny and his team can use to quickly derive insights without needing to join the underlying tables using SQL.
+![](B1.JPG)
 
 - _Rank All The Things_
-Danny also requires further information about the ranking of customer products, but he purposely does not need the ranking for non-member purchases so he expects null ranking values for the records when customers are not yet part of the loyalty program.
+Danny also requires further information about the ranking of customer products, but he purposely does not need the ranking for non-member purchases so he expects null ranking values for the records when customers are not yet part of the loyalty program. 
+![](B2.JPG)
