@@ -44,25 +44,42 @@ _Each of the following case study questions can be answered using a single SQL s
 
   ![](Q1.JPG)
   
-- What is the total amount each customer spent at the restaurant?
+- How many days has each customer visited the restaurant?
 
   ![](Q2.JPG)
   
-- How many days has each customer visited the restaurant?
+- What was the first item from the menu purchased by each customer?
   
   ![](Q3.JPG)
   
-- What was the first item from the menu purchased by each customer?
-  
-  ![](Q4.JPG)
-    
 - What is the most purchased item on the menu and how many times was it purchased by all customers?
+  | most purchased item  | Number of times purchases by all customers |
+  |:--------------------:|:--------------------:|
+  | ![](Q4.JPG)          | ![](Q4.1.JPG) |
+    
 - Which item was the most popular for each customer?
+
+   ![](Q5.JPG)   
+
 - Which item was purchased first by the customer after they became a member?
+
+  ![](Q6.JPG)   
+  
 - Which item was purchased just before the customer became a member?
+
+  ![](Q7.JPG)  
+  
 - What is the total items and amount spent for each member before they became a member?
+
+   ![](Q8.JPG)   
+   
 - If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
+
+  ![](Q9.JPG)   
+  
 - In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
+
+  ![](Q10.JPG)   
 
 # Bonus Questions
 - _Join All The Things_
