@@ -93,6 +93,6 @@ Danny also requires further information about the ranking of customer products, 
    ![](B2.JPG)
 
 # Conclusion 
-   Being part of this **#8WeekSQLChallenge** by Danny has made me master so SQL syntax and critical thing and research on how somethings can be done. A big thank you to ![Theoyinbooke](https://twitter.com/TheOyinbooke) someone I regard to as a mentor for indirectly teaching me SQL and to ![Danny]{https://8weeksqlchallenge.com/) for organizing this challenge to allow me sharpen my sql skill. Though, I'm still a work in progress and with dedication, i will perfect my sql skills.
+   Being part of this **#8WeekSQLChallenge** by Danny has made me master so SQL syntax and critical thing and research on how somethings can be done. A big thank you to [Theoyinbooke](https://twitter.com/TheOyinbooke) someone I regard to as a mentor for indirectly teaching me SQL and to [Danny](https://8weeksqlchallenge.com/) for organizing this challenge to allow me sharpen my sql skill. Though, I'm still a work in progress and with dedication, i will perfect my sql skills.
    
-
+![](Thankyou.png)
