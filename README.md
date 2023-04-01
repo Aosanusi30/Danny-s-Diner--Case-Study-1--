@@ -91,3 +91,8 @@ The following questions are related creating basic data tables that Danny and hi
 Danny also requires further information about the ranking of customer products, but he purposely does not need the ranking for non-member purchases so he expects null ranking values for the records when customers are not yet part of the loyalty program. 
 
    ![](B2.JPG)
+
+# Conclusion 
+   Being part of this **#8WeekSQLChallenge** by Danny has made me master so SQL syntax and critical thing and research on how somethings can be done. A big thank you to ![Theoyinbooke](https://twitter.com/TheOyinbooke) someone I regard to as a mentor for indirectly teaching me SQL and to ![Danny]{https://8weeksqlchallenge.com/) for organizing this challenge to allow me sharpen my sql skill. Though, I'm still a work in progress and with dedication, i will perfect my sql skills.
+   
+
